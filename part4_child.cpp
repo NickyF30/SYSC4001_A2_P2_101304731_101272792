@@ -37,7 +37,7 @@ int main() {
 
     cout << "Child process PID: " << getpid() << " started" << endl;
 
-    // wait until counter is larger than 100
+    // wait until counter is larger than 100 then child executes too
     cout << "Child: Waiting for counter to reach 100..." << endl;
     while (shared->counter <= 100) {
         sleep(1);

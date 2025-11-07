@@ -11,4 +11,6 @@ add_executable(SYSC_4001_Assignment_2_Concurrent_Processes_Part_II
         part3_child.cpp
         part4_parent.cpp
         part4_child.cpp
+        part5_parent.cpp
+        part5_child.cpp
 )
